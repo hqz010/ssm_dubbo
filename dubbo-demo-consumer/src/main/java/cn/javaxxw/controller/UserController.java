@@ -9,7 +9,7 @@ import cn.javaxxw.model.User;
 import cn.javaxxw.service.UserService;
 
 /**
- * @author tuyong
+ * @author jason huang
  * @version 1.0
  * @desc
  * @create 2017-11-29 15:38

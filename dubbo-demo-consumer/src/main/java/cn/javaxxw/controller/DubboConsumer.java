@@ -7,6 +7,12 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * @author jason huang
+ * @version 1.0
+ * @desc
+ * @create 2017-11-29 15:38
+ **/
 public class DubboConsumer {
     private static final Log log = LogFactory.getLog(DubboConsumer.class);
 

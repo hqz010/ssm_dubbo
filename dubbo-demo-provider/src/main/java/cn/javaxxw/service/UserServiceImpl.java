@@ -10,7 +10,7 @@ import cn.javaxxw.model.User;
 import cn.javaxxw.utils.MD5Util;
 
 /**
- * @author tuyong
+ * @author jason huang
  * @version 1.0
  * @desc
  * @create 2017-11-29 14:50

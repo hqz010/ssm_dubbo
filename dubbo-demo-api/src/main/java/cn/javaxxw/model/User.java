@@ -3,7 +3,7 @@ package cn.javaxxw.model;
 import java.io.Serializable;
 
 /**
- * @author tuyong
+ * @author jason huang
  * @version 1.0
  * @desc
  * @create 2017-11-29 14:31
