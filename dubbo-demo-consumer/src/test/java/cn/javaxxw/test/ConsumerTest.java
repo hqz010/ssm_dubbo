@@ -35,6 +35,7 @@ public class ConsumerTest {
             //System.out.println(user.getUserName().toString());
             serverIP = RpcContext.getContext().getRemoteHost(); // 获取当前线程最后一次调用的提供方IP地址
             System.out.println(i+":"+serverIP);
+
         }
     }
 }
