@@ -27,4 +27,11 @@ public class UserController {
         return user.toString();
     }
 
+    public Object addUser(int num){
+        for(int i=0;i<num;i++)
+        {
+
+        }
+        return "成功";
+    }
 }
