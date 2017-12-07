@@ -50,6 +50,48 @@
         <commons-lang.version>2.6</commons-lang.version>
         <commons-codec.version>1.8</commons-codec.version>
     </properties>
+　
+    <repositories>
+        <repository>
+            <id>public</id>
+            <url>http://120.35.35.189:9082/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>nexus</id>
+            <name>local private nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus</id>
+            <url>http://120.35.35.189:9082/nexus/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://120.35.35.189:9082/nexus/content/repositories/release</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://120.35.35.189:9082/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencyManagement>
         <dependencies>
