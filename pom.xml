@@ -14,6 +14,7 @@
         <module>dubbo-demo-consumer</module>
     </modules>
 
+    <!--maven仓库-->
     <repositories>
         <repository>
             <id>public</id>

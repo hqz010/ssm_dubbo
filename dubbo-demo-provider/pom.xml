@@ -143,7 +143,7 @@
 
         <pluginManagement>
             <plugins>
-                <!-- 解决Maven插件在Eclipse内执行了一系列的生命周期引起冲突 -->
+                <!-- 解决Maven插件在Eclipse内执行了一系列的生命周期引起冲突1 -->
                 <plugin>
                     <groupId>org.eclipse.m2e</groupId>
                     <artifactId>lifecycle-mapping</artifactId>
