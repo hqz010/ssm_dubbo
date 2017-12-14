@@ -30,12 +30,17 @@ public class ConsumerTest {
         String nickName="hqz";
         String serverIP=null;
         User user=null;
-        for(int i=0;i<10;i++) {
+        for(int i=0;i<1000;i++) {
             user = userService.addUser(userName, password, nickName);
             //System.out.println(user.getUserName().toString());
             serverIP = RpcContext.getContext().getRemoteHost(); // 获取当前线程最后一次调用的提供方IP地址
             System.out.println(i+":"+serverIP);
 
+            try {
+                Thread.sleep(3000);  // 这里设置:隔多长时间
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 }
